@@ -3,6 +3,7 @@
   <WebResourceId>{2935942a-b816-f011-998a-000d3aa28482}</WebResourceId>
   <Name>crff8_helloworld</Name>
   <DisplayName>helloworld</DisplayName>
+  <LanguageCode>0</LanguageCode>
   <WebResourceType>3</WebResourceType>
   <IntroducedVersion>1.0.0.2</IntroducedVersion>
   <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
