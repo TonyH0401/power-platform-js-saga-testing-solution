@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5784ee5b-1411-f011-9989-000d3aa28482}" Name="Inspection Required for House before 2000" Description="Click to add description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/InspectionRequiredforHousebefore2000-5784EE5B-1411-F011-9989-000D3AA28482.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>crff8_CaladanHouse</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Inspection Required for House before 2000" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{b94d4095-f42f-4daf-82aa-afe65a4151dd}">
+      <label languagecode="1033" description="Recommend Inspection" />
+    </steplabels>
+    <steplabels id="{40400dab-c461-4b6d-b3f0-306472c23b04}">
+      <label languagecode="1033" description="Please inspect your house because it's built before 2000" />
+    </steplabels>
+  </labels>
+</Workflow>

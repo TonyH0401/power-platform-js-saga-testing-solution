@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{63b42ff9-41f2-4fc3-a521-e4a0733d6875}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crff8_name" select="1" icon="1" preview="1">
+        <row name="result" id="crff8_caladanfurnitureid">
+          <cell name="crff8_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="crff8_furniturenamecustom" width="183" />
+          <cell name="crff8_caladanhouselookup" width="173" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crff8_caladanfurniture">
+          <attribute name="crff8_caladanfurnitureid" />
+          <attribute name="crff8_name" />
+          <attribute name="createdon" />
+          <order attribute="crff8_name" descending="false" />
+          <attribute name="crff8_furniturenamecustom" />
+          <attribute name="crff8_caladanhouselookup" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Caladan Furniture Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
