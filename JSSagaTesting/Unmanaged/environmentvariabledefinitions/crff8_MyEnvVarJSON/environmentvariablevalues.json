@@ -1,8 +1,0 @@
-{
-  "environmentvariablevalues": {
-    "environmentvariablevalue": {
-      "iscustomizable": "1",
-      "value": "{   \"apiUrl\": \"https://api.example.com/v1\",   \"featureToggle\": {     \"enableChat\": true,     \"showBetaFeatures\": false   },   \"retryPolicy\": {     \"maxAttempts\": 5,     \"delaySeconds\": 2   } }"
-    }
-  }
-}
