@@ -94,6 +94,7 @@
       <RootComponent type="61" schemaName="crff8_demo2" behavior="0" />
       <RootComponent type="61" schemaName="crff8_demoXRM" behavior="0" />
       <RootComponent type="61" schemaName="crff8_hello" behavior="0" />
+      <RootComponent type="61" schemaName="crff8_helloworld" behavior="0" />
       <RootComponent type="61" schemaName="crff8_majestic" behavior="0" />
       <RootComponent type="61" schemaName="crff8_sunimage" behavior="0" />
       <RootComponent type="61" schemaName="crff8_sunimage16x16" behavior="0" />
