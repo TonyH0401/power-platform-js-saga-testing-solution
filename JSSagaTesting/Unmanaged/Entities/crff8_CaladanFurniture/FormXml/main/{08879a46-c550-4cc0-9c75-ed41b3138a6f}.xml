@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{08879a46-c550-4cc0-9c75-ed41b3138a6f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{eee5f86a-0b76-49ac-8d84-dac9789f47d6}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3f747c52-bf01-44f1-a65d-6360e57f7481}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a6dafe4f-16eb-4f65-b662-209778147acb}">
+                        <labels>
+                          <label description="Furniture Number (custom)" languagecode="1033" />
+                        </labels>
+                        <control id="crff8_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crff8_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{add58270-8fe1-4578-b2ce-277adc11e140}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Furniture Name (custom)" languagecode="1033" />
+                        </labels>
+                        <control id="crff8_furniturenamecustom" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crff8_furniturenamecustom" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92262c1f-9f10-40a3-b372-1f37c76aadcb}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Caladan House Lookup" languagecode="1033" />
+                        </labels>
+                        <control id="crff8_caladanhouselookup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="crff8_caladanhouselookup" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c36f3eb-997e-488b-b352-1d76cbcdb797}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="475caa58-cf0f-4f61-9148-54bc0bddab61" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{a97583c1-984e-4d74-afb8-60e009756825}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1744087284188" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1744087284188" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="crff8_caladanhouselookup">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="crff8_caladanhouse"&gt;e76bff6c-3214-f011-998a-000d3aa12cf4&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{52355bba-70bb-4198-9f5a-02a041f6ff14}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{227628b9-e387-4398-859f-9996615185ce}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a1e93cc2-8250-4a56-a746-9c1d51bd4859}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5babf14a-e8de-4939-95aa-3ad25be8ad0e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b3ee6a95-4439-4017-a4b5-cc51f6f5e217}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2ef9a829-7280-446e-a9bd-a630e9122f8f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{46d4e3bb-1aed-4ebb-af0e-0e955bb7813e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1ed8a290-ed0d-44ab-86a9-6f170b442212}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

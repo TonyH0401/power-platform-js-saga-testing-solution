@@ -1,0 +1,99 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "MyEnvVar (crff8_MyEnvVar)": {
+          "defaultValue": "This is my Current Value",
+          "type": "String",
+          "metadata": {
+            "schemaName": "crff8_MyEnvVar"
+          }
+        },
+        "MyEnvVarJSON (crff8_MyEnvVarJSON)": {
+          "defaultValue": {
+            "apiUrl": "https://api.example.com/v1",
+            "featureToggle": {
+              "enableChat": true,
+              "showBetaFeatures": false
+            },
+            "retryPolicy": {
+              "maxAttempts": 5,
+              "delaySeconds": 2
+            }
+          },
+          "type": "Object",
+          "metadata": {
+            "schemaName": "crff8_MyEnvVarJSON"
+          }
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "f92fb7d3-91f2-406d-909d-cb954aeb4643"
+          },
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "required": []
+            }
+          }
+        }
+      },
+      "actions": {
+        "Compose": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "1173e239-f82b-4832-814a-e752513c0cb4"
+          },
+          "type": "Compose",
+          "inputs": "@parameters('MyEnvVar (crff8_MyEnvVar)')"
+        },
+        "Compose_2": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "67229e16-d0b9-4a0d-b548-647a122d5b82"
+          },
+          "type": "Compose",
+          "inputs": "@parameters('MyEnvVarJSON (crff8_MyEnvVarJSON)')"
+        },
+        "Respond_to_a_Power_App_or_flow": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "238fee8d-9fea-4376-aab3-819189eb0874"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "repond_env_var": "@parameters('MyEnvVar (crff8_MyEnvVar)')"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "repond_env_var": {
+                  "title": "Repond Env Var",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

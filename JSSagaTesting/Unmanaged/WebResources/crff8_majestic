@@ -1,0 +1,10 @@
+function alertOnLoadMajestic(executionContext) {
+    try {
+debugger;
+      console.log("This is majestic value, disabled, like really");
+    } catch (error) {
+      debugger;
+      console.error(`Error message for "alertOnLoad()": ` + error);
+    }
+  }
+  
