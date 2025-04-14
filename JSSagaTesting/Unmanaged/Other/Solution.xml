@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25033.192" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25033.192" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25033.00192">
+<ImportExportXml version="9.2.25034.202" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25034.202" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25034.00202">
   <SolutionManifest>
     <UniqueName>JSSagaTesting</UniqueName>
     <LocalizedNames>
@@ -112,13 +112,13 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyn_OmnichannelBase/_imgs/SitemapIcon/Administration" displayName="msdyn_OmnichannelBase/_imgs/SitemapIcon/Administration" solution="OmnichannelBase (1.10.0.84)">
-          <package appName="UnifiedRoutingPrime" version="1.5.26.182">UnifiedRoutingPrimeAnchor (1.5.26.182)</package>
+          <package appName="UnifiedRoutingPrime" version="1.5.26.185">UnifiedRoutingPrimeAnchor (1.5.26.185)</package>
         </Required>
         <Dependent type="62" schemaName="crff8_CaladanHousing" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyn_OmnichannelBase/_imgs/SitemapIcon/QuickResponses" displayName="msdyn_OmnichannelBase/_imgs/SitemapIcon/QuickResponses" solution="OmnichannelBase (1.10.0.84)">
-          <package appName="UnifiedRoutingPrime" version="1.5.26.182">UnifiedRoutingPrimeAnchor (1.5.26.182)</package>
+          <package appName="UnifiedRoutingPrime" version="1.5.26.185">UnifiedRoutingPrimeAnchor (1.5.26.185)</package>
         </Required>
         <Dependent type="62" schemaName="crff8_CaladanHousing" />
       </MissingDependency>
